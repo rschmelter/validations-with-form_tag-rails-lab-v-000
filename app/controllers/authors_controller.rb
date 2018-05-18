@@ -3,7 +3,7 @@ class AuthorsController < ApplicationController
     @author = Author.find(params[:id])
   end
 
-  def new 
+  def new
     @author = Author.new
   end
 
